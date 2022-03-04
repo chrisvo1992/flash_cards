@@ -6,21 +6,62 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
+    <!--Flash Card question-->
     <TextView
         android:id="@+id/flashcard_question_textview"
         android:layout_width="match_parent"
         android:layout_height="200dp"
+        android:background="@drawable/card_background"
         android:gravity="center"
         android:text="What state is Facebook headquarters located in?"
-        android:textSize="40sp"
-        />
-
+        android:textColor="@color/white"
+        android:textSize="40sp" />
+    <!--Flash Card answer-->
     <TextView
         android:id="@+id/flashcard_answer_textview"
         android:layout_width="match_parent"
         android:layout_height="200dp"
+        android:background="@drawable/answer_background"
         android:gravity="center"
         android:text="California"
+        android:textColor="@color/white"
         android:textSize="40sp"
         android:visibility="invisible" />
+    <!--Answer box 1-->
+    <TextView
+        android:id="@+id/answer_box_1_textview"
+        android:text="California"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_alignParentBottom="true"
+        android:textSize="40sp"
+        android:layout_marginBottom="300dp"
+        android:background="@drawable/multiple_choice_background"
+        />
+    <!--Answer box 2-->
+    <TextView
+        android:id="@+id/answer_box_2_textview"
+        android:text="New York"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_alignParentBottom="true"
+        android:textSize="40sp"
+        android:layout_marginBottom="200dp"
+        android:background="@drawable/multiple_choice_background"
+        />
+    <!--Answer box 3-->
+    <TextView
+        android:id="@+id/answer_box_3_textview"
+        android:text="Washington"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_alignParentBottom="true"
+        android:textSize="40sp"
+        android:layout_marginBottom="100dp"
+        android:background="@drawable/multiple_choice_background"
+        />
+
 </RelativeLayout>
