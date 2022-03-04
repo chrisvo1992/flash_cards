@@ -23,4 +23,4 @@ Guess where each of your favorite tech company's HQ is located!
 - [ ] Further customize and style the card
 
 extra work gif:
-<img src="https://imgur.com/a/37YaB4d" width=200><br>
+<img src="https://i.imgur.com/VxcsPq5.gif" width=200><br>
